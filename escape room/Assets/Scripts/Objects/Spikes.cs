@@ -9,7 +9,7 @@ public class Spikes : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-
+        Debug.Log("Collided !");
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("player damaged!");

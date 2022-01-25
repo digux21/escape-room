@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+
     [SerializeField] float health;
 
     public void TakeDamage(float amount)
